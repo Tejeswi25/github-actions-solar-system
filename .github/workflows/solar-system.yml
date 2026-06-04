@@ -53,8 +53,8 @@ jobs:
       - name: Install dependencies
         run: npm install 
 
-      - name: Code-Coverage
-        run: npm run code code coverage
+      - name: Code Coverage
+        run: npm run coverage
 
       - name: Archive Test result
         uses: actions/upload-artifact@v4
